@@ -2,9 +2,13 @@
 
 console.log("Challenge 4b")
 console.log()
-let gradeLst = {}
-dictionary["John"] = 98
-dictionary["Abby"] = 56
-dictionary["Stacey"] = 73
-dictionary["James"] = 84
+let gradeLst = {
+    'John' : 98,
+    'Abby' : 56,
+    'Stacey' : 73,
+    'James' : 84
+}
 
+for(i=0; i < gradeLst.length;i++){
+    console.log(i + ": " + String(gradeLst[i]))
+}
