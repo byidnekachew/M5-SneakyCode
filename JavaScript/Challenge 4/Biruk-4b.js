@@ -9,6 +9,6 @@ let gradeLst = {
     'James' : 84
 }
 
-for(i=0; i < gradeLst.length;i++){
-    console.log(i + ": " + String(gradeLst[i]))
+for(let i in gradeLst){
+    console.log(i + ": " + gradeLst[i])
 }
