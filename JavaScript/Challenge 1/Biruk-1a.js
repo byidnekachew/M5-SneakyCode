@@ -4,7 +4,7 @@ console.log("Challenge 1a")
 console.log()
 let num = Number(prompt("Enter num: "))
 if (num%2===0){
-    console.log("Even")
-} else {
     console.log("Odd")
+} else {
+    console.log("Even")
 }

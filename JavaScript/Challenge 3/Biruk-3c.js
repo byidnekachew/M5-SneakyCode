@@ -8,7 +8,7 @@ let strn = prompt("Enter text").toLowerCase()
 function vowels(text){
     let x = 0
     for (let i=0; i<text.length; i++) {
-        if(['a','e','i','o','u'].includes(text[i])){
+        if(['a','e','i','o','u'].includes(text)){
             x+=1
         }
     }

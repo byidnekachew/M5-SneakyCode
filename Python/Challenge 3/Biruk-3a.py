@@ -5,4 +5,4 @@ usrName = input("Enter your name: ")
 def greet(name):
     return "Hello " + name
 
-print(greet(usrName))
+print(greet("usrName"))
